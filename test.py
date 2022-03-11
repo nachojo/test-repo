@@ -1,3 +1,4 @@
+#조하영, 201903429, 러시아 학과
 def std_weight(height, gender):
     m_weight = height*height*22*0.01*0.01
     m_weight = round(m_weight, 2)
