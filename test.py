@@ -1,5 +1,5 @@
-#조하영, 201903429, 러시아 학과
-#성별과 키에 따른 표준체중 구하기
+# 조하영, 201903429, 러시아 학과
+# 성별과 키에 따른 표준체중 구하기
 def std_weight(height, gender):
     m_weight = height*height*22*0.01*0.01
     m_weight = round(m_weight, 2)
@@ -17,3 +17,4 @@ def std_weight(height, gender):
 gender = input("Your gender? : ")
 height = int(input("Your height? : "))
 std_weight(height, gender)
+print("hello! pull request test!")
